@@ -1,5 +1,7 @@
 Nome tabella: cars
 
+// parte 1
+
 id - number
 vin - string        //codice univoco di 17 caratteri, numero di telaio.
 brand - string
@@ -11,3 +13,17 @@ year - date
 price - number
 manual_transmission - boolean
 
+//  parte 2
+
+id - BIGINT - PRIMARY_KEY(NOTNULL, AUTOINCREMENT, UNIQUE)
+vin - VARCHAR(20) - NOTNULL        //codice univoco di 17 caratteri, numero di telaio.
+brand - VARCHAR(50) - NOTNULL
+model - VARCHAR(50) - NULL
+description - TEXT - NULL
+type - VARCHAR(20) - NULL
+color - VARCHAR(20) - NULL
+country - VARCHAR(20) - NOTNULL
+pic - TEXT - DEFAULT(https://miosito.com/images/my_car.jpg)
+year - YEAR - NOTNULL
+price - DECIMAL(9,2) - NOTNULL
+manual_transmission - TINYINT - NOTNULL
