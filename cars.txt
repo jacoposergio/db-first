@@ -1,0 +1,13 @@
+Nome tabella: cars
+
+id - number
+vin - string        //codice univoco di 17 caratteri, numero di telaio.
+brand - string
+model - string
+type - string
+color - string
+country - string
+year - date
+price - number
+manual_transmission - boolean
+
